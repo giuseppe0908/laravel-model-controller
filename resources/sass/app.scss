@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: yellow;
+}
+h1{
+  text-align: center;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.contenitore{
+  display: flex;
+  flex-wrap: wrap;
+
+  .card{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  height: 300px;
+  margin: 10px 10px;
+  width: calc(100% / 5 - 20px);
+    .card-txt{
+      display: flex;
+      flex-direction:column;
+      p{
+        margin: 20px;
+        span{
+          color: red;
+        }
+      }
+
+    }
+
+  }
+}
